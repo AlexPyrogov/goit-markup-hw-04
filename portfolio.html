@@ -31,8 +31,22 @@
         </ul>
       </nav>
       <ul class="nav-contact">
-        <li><a class="contact" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-        <li><a class="contact" href="tel:+380961111111">+38 096 111 11 11</a></li>
+        <li>
+          <a class="contact" href="mailto:info@devstudio.com">
+            <svg class="envelope">
+              <use href="./images/sprite.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+        </li>
+        <li>
+          <a class="contact" href="tel:+380961111111">
+            <svg class="envelope">
+              <use href="./images/sprite.svg#icon-smartphone"></use>
+            </svg>
+            +38 096 111 11 11
+          </a>
+        </li>
       </ul>
     </header>
     <!-- Основний контент -->
@@ -46,12 +60,12 @@
       </ul>
       <h1 class="hidden">Наши проекты</h1>
       <ul class="projects">
-        <li>
+        <li class="list-item">
           <img src="./images/tehnocrack.jpg" alt="Изображение сайта" width="370" height="294" />
           <h2 class="project-title">Технокряк</h2>
           <p class="project-text">Веб-сайт</p>
         </li>
-        <li>
+        <li class="list-item">
           <img
             src="./images/poster.jpg"
             alt="Постер баскетбольного матча"
@@ -61,22 +75,22 @@
           <h2 class="project-title">Постер New Orlean vs Golden Star</h2>
           <p class="project-text">Дизайн</p>
         </li>
-        <li>
+        <li class="list-item">
           <img src="./images/restaurant.jpg" alt="Логотип ресторана" width="370" height="294" />
           <h2 class="project-title">Ресторан Seafood</h2>
           <p class="project-text">Приложение</p>
         </li>
-        <li>
+        <li class="list-item">
           <img src="./images/prime.jpg" alt="Фото наушников" width="370" height="294" />
           <h2 class="project-title">Проект Prime</h2>
           <p class="project-text">Маркетинг</p>
         </li>
-        <li>
+        <li class="list-item">
           <img src="./images/boxes.jpg" alt="Изображение коробок" width="370" height="294" />
           <h2 class="project-title">Проект Boxes</h2>
           <p class="project-text">Приложение</p>
         </li>
-        <li>
+        <li class="list-item">
           <img
             src="./images/inspiration.jpg"
             alt="Изображение сайта на мониторе"
@@ -86,7 +100,7 @@
           <h2 class="project-title">Inspiration has no Borders</h2>
           <p class="project-text">Веб-сайт</p>
         </li>
-        <li>
+        <li class="list-item">
           <img
             src="./images/limited.jpg"
             alt="Изображение открытого журнала"
@@ -96,12 +110,12 @@
           <h2 class="project-title">Издание Limited Edition</h2>
           <p class="project-text">Дизайн</p>
         </li>
-        <li>
+        <li class="list-item">
           <img src="./images/lab.jpg" alt="Бирка с названием проекта" width="370" height="294" />
           <h2 class="project-title">Проект LAB</h2>
           <p class="project-text">Маркетинг</p>
         </li>
-        <li>
+        <li class="list-item">
           <img
             src="./images/growing.jpg"
             alt="Картинка на экране ноутбука"
@@ -115,16 +129,43 @@
     </main>
     <!-- Футер -->
     <footer class="footer">
-      <a class="logo-link" href="./index.html"
-        ><span class="logo-web">Web</span><span class="logo-footer">Studio</span></a
-      >
-      <address class="address">
-        <p>г. Киев, пр-т Леси Украинки, 26</p>
-        <ul>
-          <li><a href="mailto:info@example.com">info@example.com</a></li>
-          <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+      <div>
+        <a class="logo-link" href="./index.html"
+          ><span class="logo-web">Web</span><span class="logo-footer">Studio</span></a
+        >
+        <address class="address">
+          <p>г. Киев, пр-т Леси Украинки, 26</p>
+          <ul>
+            <li><a href="mailto:info@example.com">info@example.com</a></li>
+            <li><a href="tel:+380991111111">+38 099 111 11 11</a></li>
+          </ul>
+        </address>
+      </div>
+      <div class="footsoc">
+        <h2>присоединяйтесь</h2>
+        <ul class="socnet">
+          <li>
+            <a href="https://www.instagram.com/"
+              ><svg><use href="./images/sprite.svg#icon-instagram"></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href="https://twitter.com/"
+              ><svg><use href="./images/sprite.svg#icon-twitter"></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href="https://uk-ua.facebook.com/"
+              ><svg><use href="./images/sprite.svg#icon-facebook"></use></svg
+            ></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/"
+              ><svg><use href="./images/sprite.svg#icon-linkedin"></use></svg
+            ></a>
+          </li>
         </ul>
-      </address>
+      </div>
     </footer>
   </body>
 </html>
